@@ -9,6 +9,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -39,7 +40,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -53,11 +54,11 @@
           </div>
         </div>
       </header>
-      <div class="freind__plus">
+      <div class="friends__plus">
         <h5 class="friends__title">Plus Friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -70,7 +71,7 @@
         <h5 class="friends__title">Friend 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
@@ -84,15 +85,15 @@
             <div class="friend__now-listening">
               <span>
                 FTISLAND (FT NomadCoders)
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
       </ul>
     </main>
     <nav class="nav">
-      <ul>
+      <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="fas fa-user"></i>
@@ -115,5 +116,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>
